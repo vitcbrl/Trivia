@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <main>
+    <h1>Trivia de How I Met Your Mother</h1>
+    <p>Respostas corretas valem 10 pontos e respostas erradas valem 5 pontos e soma-se automaticamente a pontuação final</p>
+    <div>
+      <p>Questão 1: Onde os personagens Lily e Marshall se conheceram?</p>
+      <input type="radio" id="quest1" name="quiz" class="quiz" value="true" data-points="10" />
+      <label for="quest1">Na faculdade</label>
+      <input type="radio" id="quest2" name="quiz" class="quiz" value="false" data-points="5" />
+      <label for="quest2">Na escola</label>
+      <input type="radio" id="quest3" name="quiz" class="quiz" value="false" data-points="5" />
+      <label for="quest1">No bar</label> <br>
+      <input type="button" id="submit1" value="Responder e ver resultado" onclick='submit()' />
+    </div>
+    <div>
+      <p>Questão 2: Qual é o bar predileto dos personagens?</p>
+      <input type="radio" id="quest4" name="quiz" class="quiz" value="true" data-points="10" />
+      <label for="quest4">MacLaren's Pub</label>
+      <input type="radio" id="quest5" name="quiz" class="quiz" value="false" data-points="5" />
+      <label for="quest5">Puzzles</label>
+      <input type="radio" id="quest6" name="quiz" class="quiz" value="false" data-points="5" />
+      <label for="quest6">Beer Bar</label> <br>
+      <input type="button" id="submit2" value="Responder e ver resultado" onclick='submit()' />
+      <br>
+    </div>
+    <div>
+      <p>Em qual estado o personagem Marshall Eriksen nasceu? </p>
+      <input type="radio" id="quest4" name="quiz" class="quiz" value="false" data-points="5" />
+      <label for="quest4">New York</label>
+      <input type="radio" id="quest5" name="quiz" class="quiz" value="true" data-points="10" />
+      <label for="quest5">Minnesota</label>
+      <input type="radio" id="quest6" name="quiz" class="quiz" value="false" data-points="5" />
+      <label for="quest6">Ohio</label> <br>
+      <input type="button" id="submit3" value="Responder e ver resultado" onclick='submit()' />
+      <br>
+      <br>
+      <button class="section">Jogar novamente</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
